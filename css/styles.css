@@ -16,6 +16,7 @@
 
 html {
     scroll-behavior: smooth;
+    background: #50A39A;
 }
 
 a {
@@ -31,6 +32,14 @@ body {
     font-weight: 700;
     font-style: bold;
     line-height: 32px;
+}
+
+.empty_block {
+    box-sizing: border-box;
+    display: flex;
+    align-self: stretch;
+    height: 72px;
+    background: #91E27B;
 }
 
 .header {
@@ -65,14 +74,6 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-}
-
-.empty_block {
-    box-sizing: border-box;
-    display: flex;
-    align-self: stretch;
-    height: 72px;
-    background: #FFFFFF;
 }
 
 h1 {
@@ -124,6 +125,7 @@ h1 {
     align-items: center;
     gap: 40px;
     align-self: stretch;
+    background: #FFFFFF;
 }
 
 .about_divider {
