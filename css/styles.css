@@ -10,6 +10,10 @@
     font-weight: 500;
 }
 
+.scroll_target {
+    scroll-margin-top: 120px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -37,6 +41,7 @@ body {
     gap: 139px;
     align-self: stretch;
     height: 230px;
+    scroll-margin-top: 120px;
     background: #91E27B;
 }
 
@@ -75,6 +80,7 @@ h1 {
     line-height: normal;
     white-space: nowrap;
     color: #5DA356;
+    scroll-margin-top: 120px;
 }
 
 .subtitle {
@@ -123,8 +129,10 @@ h1 {
 .about_divider {
     box-sizing: border-box;
     align-self: stretch;
+    height: 2px; 
     max-width: 980px;
-    height: 2px;
+    width: 100%;
+    margin: 0px auto; 
     background: #F0F0F0;
 }
 
@@ -156,6 +164,27 @@ h1 {
     gap: 40px;
     align-self: stretch;
     background: #E6FDDD;
+}
+
+.contacts_block {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.contact_item {
+    color: #5A8C4A;
+    font-size: 20px;
+    
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer {
@@ -216,12 +245,31 @@ h1 {
         flex-direction: column;
         align-items: flex-start;
         align-self: stretch;
-        gap: 30px;
+        gap: 10px;
     }
 
     .about_title {
         font-size: 24px;
         width: auto;
+    }
+
+    .content_contact {
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .contacts_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .contact_item {
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .footer {
@@ -230,7 +278,7 @@ h1 {
 
     .footer_menu {
         flex-direction: column;
-        font-size: 22px;
+        font-size: 20px;
         gap: 18px;
     }
 
