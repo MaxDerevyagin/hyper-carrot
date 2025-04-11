@@ -4,8 +4,9 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    padding: 40px;
-    gap: 30px;
+    padding: 30px;
+    padding-bottom: 60px;
+    gap: 40px;
     background: #E6FDDD;
 }
 
@@ -14,8 +15,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    gap: 30px;
+    padding: 30px;
+    padding-bottom: 40px;
+    gap: 40px;
     background: #FFFFFF;
 }
 
@@ -26,9 +28,9 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 50px;
-    gap: 30px;
+    gap: 40px;
     background: #E6FDDD;
 }
 
@@ -41,12 +43,18 @@
     gap: 30px;
 }
 
-.game_description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0px;
-    flex: 1 0 0;
+.game_title {
+    margin-bottom: 12px;
+}
+
+.game_subtitle {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: #A1D099;
+}
+
+.game_description h2 {
+    margin-top: 0px;
 }
 
 .about_divider {
@@ -105,18 +113,22 @@
 
     .content_about {
         padding: 20px;
-        gap: 15px;
+        gap: 30px;
     }
 
     .content_contact {
         padding: 20px;
-        gap: 15px;
+        gap: 30px;
     }
 
     .game_block {
         align-items: center;
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
+    }
+
+    .game_subtitle {
+        font-size: 24px;
     }
 
     .about_item {
@@ -136,9 +148,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding-bottom: 20px;
-        gap: 20px;
         align-self: stretch;
+        padding-bottom: 20px;
     }
 
     .contact_item {
