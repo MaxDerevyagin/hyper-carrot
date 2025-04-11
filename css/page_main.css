@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    padding: 50px;
-    gap: 40px;
+    padding: 40px;
+    gap: 30px;
     background: #E6FDDD;
 }
 
@@ -14,8 +14,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    gap: 40px;
+    padding: 40px;
+    gap: 30px;
     background: #FFFFFF;
 }
 
@@ -26,8 +26,9 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    padding: 60px;
-    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    gap: 30px;
     background: #E6FDDD;
 }
 

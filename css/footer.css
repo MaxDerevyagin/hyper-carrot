@@ -29,6 +29,7 @@
 @media (max-width: 480px) {
     .footer {
         padding: 25px 0px;
+        gap: 20px;
     }
 
     .footer img {
